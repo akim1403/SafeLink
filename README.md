@@ -34,3 +34,42 @@ Install required Python libraries:
 ```bash
 pip install selenium beautifulsoup4
 
+
+🛠️ How to Use
+Clone the repository or download the script:
+
+git clone https://github.com/yourusername/safelink.git
+cd safelink
+
+Run the script:
+python SafeLink.py
+
+Input a URL when prompted:
+Enter website to check: http://example.com
+
+Output will indicate whether the site is safe or potentially a scam:
+Found the company PayPal in page content
+Checking website link against safe website domains
+This is a Scam Website!!!!!!!!!!!
+
+📋 How it Works
+User inputs a URL.
+The tool loads the page in a headless Chrome browser.
+Webpage content is scraped using BeautifulSoup.
+Each major company name is checked against the text content.
+If a company is mentioned, the base URL is compared to that company's official domain(s).
+If mismatched, it flags the site as suspicious.
+
+🧠 Supported Companies
+The script currently supports a wide range of entities including:
+Australian government services (ATO, myGov, Centrelink)
+Major banks (ANZ, Westpac, Commonwealth, NAB)
+Retailers (Amazon, eBay, Facebook Marketplace)
+Delivery services (Australia Post, DHL, FedEx)
+Streaming and subscription platforms (Netflix, Disney+, Spotify)
+Investment & crypto platforms (Binance, CoinSpot, ASX)
+Healthcare and insurance providers (Bupa, Medibank)
+Job portals, tech companies, charities, and more.
+
+⚠️ Disclaimer
+This tool provides basic heuristic checking and should not be considered a comprehensive phishing detection system. Always verify suspicious websites through official channels.
