@@ -13,11 +13,11 @@ It performs the following:
 
 ## 🚀 Features
 
-- ✅ Detects scam attempts mimicking trusted organizations.
-- 🧠 Parses full webpage content with JavaScript support using Selenium.
-- 🔒 Uses headless Chrome with anti-bot features to avoid detection.
-- 🔎 Matches detected company names to known-safe base URLs.
-- 💡 Supports a wide range of industries: government, banking, e-commerce, crypto, healthcare, etc.
+- ✅ **Detects scam attempts mimicking trusted organizations.**
+- 🧠 **Parses full webpage content with JavaScript support using Selenium.**
+- 🔒 **Uses headless Chrome with anti-bot features to avoid detection.**
+- 🔎 **Matches detected company names to known-safe base URLs.**
+- 💡 **Supports a wide range of industries:** government, banking, e-commerce, crypto, healthcare, etc.
 
 ---
 
@@ -33,43 +33,70 @@ Install required Python libraries:
 
 ```bash
 pip install selenium beautifulsoup4
+```
 
+---
 
-# 🛠️ How to Use
-Clone the repository or download the script:
+## 🛠️ How to Use
 
-git clone https://github.com/yourusername/safelink.git
-cd safelink
+1. Clone the repository or download the script:
 
-Run the script:
-python SafeLink.py
+    ```bash
+    git clone https://github.com/yourusername/safelink.git
+    cd safelink
+    ```
 
-Input a URL when prompted:
-Enter website to check: http://example.com
+2. Run the script:
 
-Output will indicate whether the site is safe or potentially a scam:
-Found the company PayPal in page content
-Checking website link against safe website domains
-This is a Scam Website!!!!!!!!!!!
+    ```bash
+    python SafeLink.py
+    ```
 
-📋 How it Works
-User inputs a URL.
-The tool loads the page in a headless Chrome browser.
-Webpage content is scraped using BeautifulSoup.
-Each major company name is checked against the text content.
-If a company is mentioned, the base URL is compared to that company's official domain(s).
-If mismatched, it flags the site as suspicious.
+3. Input a URL when prompted:
 
-🧠 Supported Companies
-The script currently supports a wide range of entities including:
-Australian government services (ATO, myGov, Centrelink)
-Major banks (ANZ, Westpac, Commonwealth, NAB)
-Retailers (Amazon, eBay, Facebook Marketplace)
-Delivery services (Australia Post, DHL, FedEx)
-Streaming and subscription platforms (Netflix, Disney+, Spotify)
-Investment & crypto platforms (Binance, CoinSpot, ASX)
-Healthcare and insurance providers (Bupa, Medibank)
-Job portals, tech companies, charities, and more.
+    ```
+    Enter website to check: http://example.com
+    ```
 
-⚠️ Disclaimer
+4. The output will indicate whether the site is safe or potentially a scam:
+
+    ```
+    Found the company PayPal in page content
+    Checking website link against safe website domains
+    This is a Scam Website!!!!!!!!!!!
+    ```
+
+---
+
+## 📋 How It Works
+
+1. User inputs a URL.
+2. The tool loads the page in a headless Chrome browser.
+3. Webpage content is scraped using BeautifulSoup.
+4. Each major company name is checked against the text content.
+5. If a company is mentioned, the base URL is compared to that company's official domain(s).
+6. If mismatched, the site is flagged as suspicious.
+
+---
+
+## 🧠 Supported Companies
+
+The script currently supports a wide range of entities, including:
+
+- **Australian government services**: ATO, myGov, Centrelink
+- **Major banks**: ANZ, Westpac, Commonwealth, NAB
+- **Retailers**: Amazon, eBay, Facebook Marketplace
+- **Delivery services**: Australia Post, DHL, FedEx
+- **Streaming and subscription platforms**: Netflix, Disney+, Spotify
+- **Investment & crypto platforms**: Binance, CoinSpot, ASX
+- **Healthcare and insurance providers**: Bupa, Medibank
+- **Job portals, tech companies, charities**, and more.
+
+---
+
+## ⚠️ Disclaimer
+
 This tool provides basic heuristic checking and should not be considered a comprehensive phishing detection system. Always verify suspicious websites through official channels.
+
+---
+
