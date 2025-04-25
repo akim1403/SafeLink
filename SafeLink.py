@@ -1,19 +1,3 @@
-# from bs4 import BeautifulSoup
-# from urllib.request import urlopen
-
-# #url = "https://www.paypal.com/au/home"
-# url = "http://olympus.realpython.org/profiles/dionysus"
-# page = urlopen(url)
-# html = page.read().decode("utf-8")
-# soup = BeautifulSoup(html, "html.parser")
-# print(soup.get_text())
-# #print(soup.find_all("img"))
-# #print(soup.prettify())
-# if "paypal" in soup.get_text().lower():
-#     print("Found 'paypal' in page content (case-insensitive)")
-# else:
-#     print("Did not find the word paypal")
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
