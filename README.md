@@ -1,6 +1,7 @@
 # SafeLink – Scam Website Detector
 
 SafeLink is a Python-based tool that helps detect potentially scammy or phishing websites by analyzing their content and comparing them to a list of trusted domains for well-known companies.
+
 This project was developed by me with the assistance of AI tools
 
 It performs the following:
