@@ -1,4 +1,4 @@
-# 🔐 SafeLink – Scam Website Detector
+# SafeLink – Scam Website Detector
 
 SafeLink is a Python-based tool that helps detect potentially scammy or phishing websites by analyzing their content and comparing them to a list of trusted domains for well-known companies.
 
@@ -14,17 +14,17 @@ It performs the following:
 An example video of this program working can be found through this link:
 https://youtu.be/iuc3TkIYI08
 
-## 🚀 Features
+## Features
 
-- ✅ **Detects scam attempts mimicking trusted organizations.**
-- 🧠 **Parses full webpage content with JavaScript support using Selenium.**
-- 🔒 **Uses headless Chrome with anti-bot features to avoid detection.**
-- 🔎 **Matches detected company names to known-safe base URLs.**
-- 💡 **Supports a wide range of industries:** government, banking, e-commerce, crypto, healthcare, etc.
+-  **Detects scam attempts mimicking trusted organizations.**
+-  **Parses full webpage content with JavaScript support using Selenium.**
+-  **Uses headless Chrome with anti-bot features to avoid detection.**
+-  **Matches detected company names to known-safe base URLs.**
+-  **Supports a wide range of industries:** government, banking, e-commerce, crypto, healthcare, etc.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Make sure you have the following installed:
 
@@ -40,7 +40,7 @@ pip install selenium beautifulsoup4
 
 ---
 
-## 🛠️ How to Use
+## How to Use
 
 1. Clone the repository or download the script:
 
@@ -71,7 +71,7 @@ pip install selenium beautifulsoup4
 
 ---
 
-## 📋 How It Works
+## How It Works
 
 1. User inputs a URL.
 2. The tool loads the page in a headless Chrome browser.
@@ -82,7 +82,7 @@ pip install selenium beautifulsoup4
 
 ---
 
-## 🧠 Supported Companies
+## Supported Companies
 
 The script currently supports a wide range of entities, including:
 
