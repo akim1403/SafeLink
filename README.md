@@ -35,7 +35,7 @@ Install required Python libraries:
 pip install selenium beautifulsoup4
 
 
-🛠️ How to Use
+# 🛠️ How to Use
 Clone the repository or download the script:
 
 git clone https://github.com/yourusername/safelink.git
