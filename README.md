@@ -11,6 +11,9 @@ It performs the following:
 
 ---
 
+An example video of this program working can be found through this link:
+https://youtu.be/iuc3TkIYI08
+
 ## 🚀 Features
 
 - ✅ **Detects scam attempts mimicking trusted organizations.**
